@@ -172,6 +172,13 @@ body{
         width: 45%;
         height: 55%;
     }
+    
+    .results-circle__user-value{
+        font-size: 6.75rem;
+    }
+    .results-circle__total{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -200,7 +207,14 @@ body{
         height: 35%;
         width:45%;
     }
+    
+   .results-circle__user-value{
+        font-size: 3.25rem;
+    }
 
+    .results-circle__total{
+        font-size: 1rem;
+    }
     .results-summary{
         margin-bottom: 1rem;
         max-width: 50%;
